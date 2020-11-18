@@ -1,0 +1,360 @@
+/* Extra small devices - xs (portrait phones, less than 576px) */
+@media (max-width: 575px) { 
+
+/* Header Styles Starts */
+
+	.logo {
+		margin-bottom: 20px;
+		margin-left: 0;
+		margin-right: 0;
+		font-size: 18px;
+	}
+		.logo h2 {
+			font-size: 48px;
+		}
+
+	.header-content {
+		padding-top: 30px;
+		padding-bottom: 50px;
+	}	
+		.header-content h1 {
+			margin-bottom: 30px;
+			font-size: 40px;
+		}	
+
+/* Intro Section Styles Starts */
+
+	.intro-section h4 {
+		border-left: none;
+	}		
+
+	.form-box-wrap {
+		margin-top: 50px;
+	}
+		.form-box-wrap h5::before {
+			display: none;
+		}		
+
+/* Program Section Styles Starts */
+
+	.program-section h1 {
+		font-size: 60px;
+	}	
+
+/* Training Section Styles Starts */
+
+	.training-info-box {
+		padding: 40px 80px;
+	}
+		.training-info-box h1 {
+			font-size: 50px;
+		}
+
+/* Info Section Styles Starts */
+
+	.info-box {
+		background: #262626 none;
+	}
+	.info-box.blue {
+		margin-top: 40px;
+		background: #3497db none;
+	}	
+		.info-box p {
+			margin-left: 0;
+			margin-right: 0;
+		}
+
+/* Latest Articles Styles Starts */
+
+	.news-post {
+		margin-right: 0;
+	}		
+
+/* Testimonials Section Styles Starts */
+
+	.testimonials-section h3 {
+		margin-top: 60px;
+	}
+		.testimonial-box .title-bar {
+			position: static;
+			margin-left: auto;
+			margin-right: auto;
+			width: 100%;
+		}
+		.testimonial-box p.lead {
+			margin-top: 30px;
+		}		
+
+/* Footer Styles Starts */
+
+	.main-footer h1 {
+		font-size: 60px;
+	}	
+
+/* Generic Styles Starts */
+
+	.d-xs-block {
+		display: block !important;
+	}
+	.d-xs-none {
+		display: none;
+	}
+	.img-center-xs {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.img-style-1 {
+		-webkit-box-shadow: -10px -10px #fff, -15px -15px #e1e1e1;
+		   -moz-box-shadow: -10px -10px #fff, -15px -15px #e1e1e1;
+				box-shadow: -10px -10px #fff, -15px -15px #e1e1e1;
+	}
+
+	.text-xs-left   { text-align: left;   }
+	.text-xs-center { text-align: center; }
+	.text-xs-right  { text-align: right;  }			
+
+}
+
+/* Small devices - sm (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) { 
+
+/* Intro Section Styles Starts */
+
+	.intro-section h4 {
+		border-left: none;
+	}		
+
+	.form-box-wrap {
+		margin-top: 50px;
+	}
+		.form-box-wrap h5::before {
+			display: none;
+		}
+
+/* Header Styles Starts */
+
+	.logo {
+		margin-left: 60px;
+		margin-right: 60px;
+	}
+	.header-content {
+		padding-top: 40px;
+		padding-bottom: 60px;
+	}	
+		.header-content h1 {
+			margin-bottom: 40px;
+			font-size: 50px;
+		}
+
+/* Program Section Styles Starts */
+
+	.program-section .img-style-1 {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+		.program-list li h6 {
+			font-size: 24px;
+		}	
+
+/* Training Section Styles Starts */
+
+	.training-info-box {
+		padding: 40px 80px;
+	}
+		.training-info-box h1 {
+			font-size: 50px;
+		}
+
+/* Info Section Styles Starts */
+
+	.info-box {
+		background: #262626 none;
+	}
+	.info-box.blue {
+		margin-top: 40px;
+		background: #3497db none;
+	}	
+		.info-box p {
+			margin-left: 0;
+			margin-right: 0;
+		}
+
+/* Latest Articles Styles Starts */
+
+	#news-post-carousel .owl-controls {
+		text-align: center;
+	}	
+
+/* Testimonials Section Styles Starts */
+
+	.testimonials-section h3 {
+		margin-top: 60px;
+	}
+		.testimonial-box .title-bar {
+			position: static;
+			margin-left: auto;
+			margin-right: auto;
+			width: 100%;
+		}
+		.testimonial-box p.lead {
+			margin-top: 30px;
+		}		
+
+/* Generic Styles Starts */
+
+	.img-center-sm {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.img-style-1 {
+		-webkit-box-shadow: -20px -20px #fff, -25px -25px #e1e1e1;
+		   -moz-box-shadow: -20px -20px #fff, -25px -25px #e1e1e1;
+				box-shadow: -20px -20px #fff, -25px -25px #e1e1e1;
+	}
+
+}
+
+/* Medium devices - md (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) { 
+
+/* Intro Section Styles Starts */
+
+	.intro-section ul + ul {
+		margin-left: 0;
+	}	
+
+	.form-box-wrap {
+		margin-top: -227px;
+	}
+
+/* Header Styles Starts */
+
+	.header-content {
+		padding-top: 80px;
+	}	
+
+/* Program Section Styles Starts */
+
+	.program-section .img-style-1 {
+		margin-top: 40px;
+		margin-bottom: 40px;
+	}
+		.program-list li h6 {
+			font-size: 24px;
+		}
+
+/* Info Section Styles Starts */
+
+	.info-box {
+		background: #262626 url(../images/info-box-img1.png) no-repeat right top;
+	}
+	.info-box.blue {
+		margin-top: 40px;
+		background: #3497db url(../images/info-box-img2.png) no-repeat right 20%;
+	}
+
+/* Latest Articles Styles Starts */
+
+	#news-post-carousel .owl-controls {
+		text-align: center;
+	}
+
+/* Testimonials Section Styles Starts */
+
+	.testimonials-section h3 {
+		margin-top: 60px;
+	}
+		.testimonial-box .title-bar {
+			position: static;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.testimonial-box p.lead {
+			margin-top: 40px;
+		}	
+	
+/* Generic Styles Starts */
+
+	.img-center-md {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.img-style-1 {
+		-webkit-box-shadow: -25px -25px #fff, -30px -30px #e1e1e1;
+		   -moz-box-shadow: -25px -25px #fff, -30px -30px #e1e1e1;
+				box-shadow: -25px -25px #fff, -30px -30px #e1e1e1;
+	}
+
+}
+
+/* Large devices - lg (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) { 
+
+/* Intro Section Styles Starts */
+
+	.intro-section ul + ul {
+		margin-left: 120px;
+	}	
+
+	.form-box-wrap {
+		margin-top: -227px;
+	}
+
+/* Header Styles Starts */
+
+	.header-content {
+		padding-top: 120px;
+	}
+
+/* Testimonials Section Styles Starts */
+
+	.testimonial-box .title-bar {
+		right: -100px;
+		width: 90%;
+	}
+
+/* Footer Styles Starts */
+
+	.foot-address li .fa.float-lg-left {
+		margin-top: 10px;
+		margin-right: 25px;
+		margin-bottom: 25px;
+	}	
+
+/* Generic Styles Starts */
+
+	.img-center-lg {
+		margin-left: auto;
+		margin-right: auto;
+	}	
+
+	.img-style-1 {
+		-webkit-box-shadow: -30px -30px #fff, -35px -35px #e1e1e1;
+		   -moz-box-shadow: -30px -30px #fff, -35px -35px #e1e1e1;
+				box-shadow: -30px -30px #fff, -35px -35px #e1e1e1;
+	}
+
+}
+
+/* Extra large devices - xl (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+/* Intro Section Styles Starts */
+
+	.intro-section ul + ul {
+		margin-left: 150px;
+	}
+
+	.form-box-wrap {
+		margin-top: -227px;
+	}
+
+/* Footer Styles Starts */
+
+	.foot-address li .fa.pull-left-lg {
+		margin-top: 10px;
+		margin-right: 25px;
+	}	
+
+}

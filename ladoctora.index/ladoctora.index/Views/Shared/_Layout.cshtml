@@ -1,0 +1,80 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>@ViewData["Title"]</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Web Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,200,300,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic" rel="stylesheet" type="text/css">
+
+    <!-- Template CSS Files  -->
+    <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/js/plugins/owl-carousel/owl.carousel.css" rel="stylesheet">
+    <link href="/js/plugins/owl-carousel/owl.theme.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+    <link href="/css/responsive.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.10.1/themes/base/jquery-ui.css" />
+
+</head>
+<body>
+
+    @RenderBody()
+    <footer class="main-footer">
+        <!-- Nest Container Starts -->
+        <div class="container text-xs-center text-sm-center text-md-left">
+            <!-- Nested Row Starts -->
+            <div class="row">
+                <!-- Copyright Starts -->
+                <div class="col-md-4 col-sm-12">
+                    <div class="copyright">
+                        <h6 class="text-uppercase">DRA YARAESY FERMIN.</span></h6>
+                        <p class="text-uppercase text-weight-normal sub">Medicina General</p>
+
+                        <p class="text-weight-light">&copy; 2020</p>
+                    </div>
+                </div>
+                <!-- Copyright Ends -->
+                <!-- Newsletter Starts -->
+                <!-- Newsletter Ends -->
+                <!-- Address Starts -->
+                <div class="col-md-4 col-sm-12">
+                    <h6 class="text-uppercase">Dirección de atención</h6>
+                    <ul class="list-unstyled foot-address text-weight-light">
+                        <li class="clearfix">
+                            <i class="fa fa-map-marker float-md-left"></i>
+                            Medic<b>Dent</b>, Av. Portugal 140, Santiago, Región Metropolitana
+                        </li>
+                        <li>
+                            <i class="fa fa-envelope"></i>
+                            <a href="mailto:info@ladoctora.cl">info@ladoctora.cl</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Address Ends -->
+            </div>
+            <!-- Nested Row Ends -->
+        </div>
+        <!-- Nested Container Ends -->
+    </footer>
+    <!-- Footer Ends -->
+    <!-- Template JS Files -->
+    <script src="/js/jquery-3.3.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.10.1/jquery-ui.js"></script>
+    <script src="/js/popper.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/plugins/owl-carousel/owl.carousel.js"></script>
+    <script src="/js/custom.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

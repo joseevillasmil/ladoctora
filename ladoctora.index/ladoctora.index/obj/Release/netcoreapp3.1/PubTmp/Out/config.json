@@ -1,0 +1,33 @@
+{
+  "lunes": {
+    "atencion": true,
+    "horario": [ "19:00", "22:00" ]
+  },
+  "martes": {
+    "atencion": true,
+    "horario": [ "19:00", "22:00" ]
+  },
+  "miercoles": {
+    "atencion": true,
+    "horario": [ "19:00", "22:00" ]
+  },
+  "jueves": {
+    "atencion": true,
+    "horario": [ "19:00", "22:00" ]
+  },
+  "viernes": {
+    "atencion": true,
+    "horario": [ "19:00", "22:00" ]
+  },
+  "sabado": {
+    "atencion": false,
+    "horario": [ "19:00", "22:00" ]
+  },
+  "domingo": {
+    "atencion": false,
+    "horario": [ "19:00", "22:00" ]
+  },
+
+  "minutos": 15,
+  "atencionesPorVez": 1
+}
