@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Josee\\source\\repos\\ladoctora.index\\ladoctora.index\\ladoctora.index.csproj": {}
+    "C:\\Users\\Josee\\Documents\\GitHub\\ladoctora\\ladoctora.index\\ladoctora.index\\ladoctora.index.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Josee\\source\\repos\\ladoctora.index\\ladoctora.index\\ladoctora.index.csproj": {
+    "C:\\Users\\Josee\\Documents\\GitHub\\ladoctora\\ladoctora.index\\ladoctora.index\\ladoctora.index.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Josee\\source\\repos\\ladoctora.index\\ladoctora.index\\ladoctora.index.csproj",
+        "projectUniqueName": "C:\\Users\\Josee\\Documents\\GitHub\\ladoctora\\ladoctora.index\\ladoctora.index\\ladoctora.index.csproj",
         "projectName": "ladoctora.index",
-        "projectPath": "C:\\Users\\Josee\\source\\repos\\ladoctora.index\\ladoctora.index\\ladoctora.index.csproj",
+        "projectPath": "C:\\Users\\Josee\\Documents\\GitHub\\ladoctora\\ladoctora.index\\ladoctora.index\\ladoctora.index.csproj",
         "packagesPath": "C:\\Users\\Josee\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Josee\\source\\repos\\ladoctora.index\\ladoctora.index\\obj\\",
+        "outputPath": "C:\\Users\\Josee\\Documents\\GitHub\\ladoctora\\ladoctora.index\\ladoctora.index\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -30,6 +30,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -41,10 +42,19 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Google.Apis.Calendar.v3": {
+              "target": "Package",
+              "version": "[1.49.0.2161, )"
+            },
             "Microsoft.Azure.Cosmos": {
               "target": "Package",
               "version": "[3.14.0, )"
+            },
+            "SendGrid": {
+              "target": "Package",
+              "version": "[9.21.1, )"
             }
           },
           "imports": [
@@ -65,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

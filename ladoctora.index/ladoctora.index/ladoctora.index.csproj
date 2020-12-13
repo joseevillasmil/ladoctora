@@ -2,10 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>d08fdb7c-2a1b-40d2-9230-5482b8bac87d</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Google.Apis.Calendar.v3" Version="1.49.0.2161" />
     <PackageReference Include="Microsoft.Azure.Cosmos" Version="3.14.0" />
+    <PackageReference Include="SendGrid" Version="9.21.1" />
   </ItemGroup>
 
   <ItemGroup>

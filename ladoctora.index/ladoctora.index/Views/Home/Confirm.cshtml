@@ -1,0 +1,78 @@
+﻿@{
+    ViewData["Title"] = "Confirmar Hora";
+    Dictionary<string, dynamic> hora = ViewBag.hora;
+}
+<section class="section-area intro-section">
+    <!-- Nested Container Starts -->
+    <div class="container">
+        <!-- Nested Row Starts -->
+        <div class="row">
+            
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                <div class="form-box-wrap text-light-color text-xs-center text-sm-center text-md-left">
+                    <h3 class="text-uppercase text-center">CONFIRMAR HORA</h3>
+                    <!-- Form Starts -->
+                    @if (hora != null)
+                    {
+                        
+                            <div class="form-box">
+                                <!-- First Name Filed Starts -->
+                                <h3>Día: @hora["dia"]</h3>
+                                <h3>Hora: @hora["hora"]</h3>
+                                <div class="row" style="background: #fff; padding: 10px;">
+                                    <div class="col-12">
+                                        <button role="button" id="btnConfirmar" onclick="confirmar(this)" 
+                                                class="btn btn-success btn-block text-uppercase animation">Confirmar Asistencia
+                                        </button>
+                                    </div>
+                                </div>
+
+                            </div>
+                    }
+                    else
+                    {
+                        
+                            <div class="form-box">
+                                <!-- First Name Filed Starts -->
+
+                               <h2>HORA DE ATENCIÓN INVÁLIDA</h2>
+
+                            </div>
+                    }
+
+                    <!-- Form Ends -->
+                </div>
+            </div>
+            <!-- Intro Form Ends -->
+        </div>
+        <!-- Nested Row Ends -->
+    </div>
+    <!-- Nested Container Ends -->
+</section>
+@section Scripts {
+    <script>
+        function confirmar(btn) {
+            Swal.fire({
+                title: 'Confirmación',
+                text: "¿Está seguro de confirmar la hora?",
+                icon: 'warning',
+                showCancelButton: true,
+                confirmButtonColor: '#3085d6',
+                cancelButtonColor: '#d33',
+                confirmButtonText: 'Si',
+                cancelButtonText: 'No',
+            }).then((result) => {
+                if (result.isConfirmed) {
+                     $(btn).prop('disabled', true);
+                 $(btn).html("...");
+                    $.post("/Hora/Confirmar", { id: '@(hora != null ? hora["id"] : "" )  ' })
+                     .done(function (data) {
+                         Swal.fire("Hora confirmada con éxito");
+                      $(btn).html("Hora Confirmada!");
+                  });
+                }
+            });
+
+        }
+    </script>
+}

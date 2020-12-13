@@ -11,7 +11,7 @@
     <title>@ViewData["Title"]</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Google Web Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,200,300,700" rel="stylesheet" type="text/css">
@@ -27,7 +27,38 @@
 
 </head>
 <body>
-
+    <header class="main-header parallax">
+        <!-- Nested Container Starts -->
+        <div class="container text-light-color text-xs-center text-sm-center text-md-left">
+            <!-- Nested Row Starts -->
+            <div class="row">
+                <!-- Logo Starts -->
+                <div class="col-xl-3 col-lg-4 col-md-5 col-sm-12">
+                    <div class="logo text-uppercase text-center">
+                        <h2 class="text-uppercase">La Doctora</h2>
+                        <span class="text-weight-light"><small>Av. Portugal 140, Santiago</small></span>
+                    </div>
+                </div>
+                <!-- Logo Ends -->
+            </div>
+            <!-- Nested Row Ends -->
+            <!-- Nested Row Starts -->
+            <div class="row">
+                <!-- Header Content Starts -->
+                <div class="col-xl-8 col-lg-9 col-md-10 col-sm-12">
+                    <div class="header-content">
+                        <h3 class="text-uppercase">Medicina General</h3>
+                        <h1 class="text-uppercase">DRA YARAESY FERMIN.</h1>
+                        <p class="lead">Horario de atención</p>
+                        <p class="text-weight-light">De Lunes a Sabado, de 19:00 - 22:00</p>
+                    </div>
+                </div>
+                <!-- Header Content Ends -->
+            </div>
+            <!-- Nested Row Ends -->
+        </div>
+        <!-- Nested Container Ends -->
+    </header>
     @RenderBody()
     <footer class="main-footer">
         <!-- Nest Container Starts -->
