@@ -22,9 +22,9 @@ namespace ladoctora.index.Controllers
     public class HoraController : Controller
     {
         // GET: HoraController
-        const string COSMOS_CONSTR = "AccountEndpoint=https://ladoctora.documents.azure.com:443/;AccountKey=WeYBZ904lzpo9pTTytoKErcPKdsAuOzbKuAPPXaqYHa21LRTCNqXGlqrFTf0EtkxZaY8PAskDzpAaCu1Y1mi5g==;";
+        const string COSMOS_CONSTR = "cosmos con str";
 
-        const string SENDGRID_API_KEY = "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";
+        const string SENDGRID_API_KEY = "sendgrid apikey";
         public JsonResult Index()
         {
             StreamReader r = new StreamReader("config.json");
